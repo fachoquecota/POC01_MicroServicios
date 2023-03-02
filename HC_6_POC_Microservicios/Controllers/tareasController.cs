@@ -163,7 +163,7 @@ namespace HC_6_POC_Microservicios.Controllers
                 }
                 for (int i = 0; i < cantidad; i++)
                 {
-                    string fileName = prefix + Guid.NewGuid().ToString() + ".txt";
+                    string fileName = prefix + Guid.NewGuid().ToString() + "_684060055" + ".txt";
                     string filePath = Path.Combine(directoryPath, fileName);
                     using (StreamWriter writer = System.IO.File.CreateText(filePath))
                     {
