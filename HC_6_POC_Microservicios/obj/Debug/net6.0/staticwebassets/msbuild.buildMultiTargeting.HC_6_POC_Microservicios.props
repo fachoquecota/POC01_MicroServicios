@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\HC_6_POC_Microservicios.props" />
+</Project>
