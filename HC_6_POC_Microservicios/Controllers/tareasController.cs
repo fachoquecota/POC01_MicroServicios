@@ -5,6 +5,7 @@ using System.Threading;
 using System.Threading.Tasks;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Options;
+using Newtonsoft.Json;
 
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
@@ -177,6 +178,9 @@ namespace HC_6_POC_Microservicios.Controllers
                 return StatusCode(500, ex.Message);
             }
         }
+        
+
+
 
         //// GET api/<productosController>/5
         //[HttpGet("{id}")]
